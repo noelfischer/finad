@@ -7,15 +7,15 @@ import { Progress } from "@/components/ui/progress"
 import { PieChart, Wallet, TrendingUp } from 'lucide-react'
 
 const initialCategories = [
-    { name: 'Housing', color: 'bg-blue-500', amount: 2000, percentage: 40 },
-    { name: 'Food', color: 'bg-green-500', amount: 1500, percentage: 30 },
-    { name: 'Transportation', color: 'bg-yellow-500', amount: 1000, percentage: 20 },
-    { name: 'Entertainment', color: 'bg-purple-500', amount: 300, percentage: 6 },
-    { name: 'Utilities', color: 'bg-red-500', amount: 200, percentage: 4 },
+    { name: 'Housing', color: 'bg-blue-500/70', amount: 2000, percentage: 40 },
+    { name: 'Food', color: 'bg-green-500/70', amount: 1500, percentage: 30 },
+    { name: 'Transportation', color: 'bg-yellow-500/70', amount: 1000, percentage: 20 },
+    { name: 'Entertainment', color: 'bg-purple-500/70', amount: 300, percentage: 6 },
+    { name: 'Utilities', color: 'bg-red-500/70', amount: 200, percentage: 4 },
 ]
 
 export default function InteractiveDashboardDemo() {
-    const [income, setIncome] = useState(5000)
+    const [income, setIncome] = useState(5400)
     const [categories, setCategories] = useState(initialCategories)
     const [savings, setSavings] = useState(0)
 
@@ -39,7 +39,7 @@ export default function InteractiveDashboardDemo() {
     const savingsPercentage = ((income - totalExpenses) / income) * 100
 
     return (
-        <div className="rounded-lg max-w-3xl mx-auto">
+        <div className="bg-white/50 p-6 shadow-xl rounded-xl max-w-3xl mx-auto">
             <div className="space-y-3">
                 <Card>
                     <CardHeader>
@@ -75,7 +75,7 @@ export default function InteractiveDashboardDemo() {
                                         <Progress value={category.percentage} className={`h-10 ${category.color}`} />
                                         <div className="absolute inset-0 flex justify-between items-center px-3 text-white">
                                             <span>{category.name}</span>
-                                            <span>CHF {category.amount.toFixed(2)} {isFinite(category.percentage) && <>({category.percentage.toFixed(1)}%)</>}</span>
+                                            <span className='font-bold'>CHF {category.amount.toFixed(2)} {isFinite(category.percentage) && <>({category.percentage.toFixed(1)}%)</>}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ export default function InteractiveDashboardDemo() {
                     <CardContent>
                         <div className="space-y-4">
                             <div className="relative h-10">
-                                <Progress value={Math.max(0, savingsPercentage)} className="h-10 bg-indigo-500" />
+                                <Progress value={Math.max(0, savingsPercentage)} className="h-10 bg-indigo-500/70" />
                                 <div className="absolute inset-0 flex justify-between items-center px-3 text-white">
                                     <span className="font-bold">Savings</span>
                                     <span className="font-bold">
