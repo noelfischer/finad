@@ -24,11 +24,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <p className="sm:hidden">sm</p>
-      <p className="md:hidden">md</p>
-      <p className="lg:hidden">lg</p>
-      <p className="xl:hidden">xl</p>
-      <p className="2xl:hidden">2xl</p>
     </section>
   )
 }
