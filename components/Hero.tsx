@@ -15,8 +15,8 @@ export default function Hero() {
               Track, analyze, and optimize your personal spending habits with our intuitive finance tracker, tailored for Swiss residents.
             </p>
             <div className="flex space-x-4">
-              <Button size="lg">Get Started</Button>
-              <Link href="#how-it-works"><Button variant="outline" size="lg">Learn More</Button></Link>
+              <Button size="lg" asChild><Link href="/auth">Get Started</Link></Button>
+              <Button variant="outline" size="lg" asChild><Link href="#how-it-works">Learn More</Link></Button>
             </div>
           </div>
           <div className="md:w-1/2">
