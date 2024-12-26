@@ -1,3 +1,4 @@
+import InteractiveDashboardDemo from "@/components/InteractiveDemo"
 import FAQ from "../components/FAQ"
 import Features from "../components/Features"
 import Footer from "../components/Footer"
