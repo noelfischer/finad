@@ -8,19 +8,19 @@ import {
 const faqs = [
   {
     question: "Is my financial data secure with FinAd?",
-    answer: "Yes, we take security very seriously. We use bank-level encryption to protect your data and never store your bank credentials. Our systems are regularly audited by third-party security experts.",
+    answer: "Yes, we take security very seriously. We use bank-level encryption to protect your data and never store your bank credentials.",
   },
   {
-    question: "Can I connect multiple bank accounts?",
-    answer: "You can connect multiple bank accounts, credit cards, and investment accounts to get a comprehensive view of your finances.",
+    question: "Can I add multiple credit card statements?",
+    answer: "You can add multiple credit card statements to get a comprehensive view of your finances.",
   },
   {
-    question: "Is there a mobile app available?",
-    answer: "Yes, we offer mobile apps for both iOS and Android devices, allowing you to track your finances on the go.",
+    question: "Can I access this on my phone?",
+    answer: "Yes, we offer mobile web app for both iOS and Android devices, allowing you to track your finances on the go.",
   },
   {
     question: "How often is my financial data updated?",
-    answer: "We update your data several times a day to ensure you have the most current information. You can also manually refresh your accounts at any time.",
+    answer: "You can upload your credit card satements as many times as you want to ensure you have the most current information.",
   },
   {
     question: "Can I export my financial data?",

@@ -6,19 +6,19 @@ const testimonials = [
     quote: "FinAd has completely transformed how I manage my finances. It's intuitive, powerful, and has helped me save more than ever before.",
     author: "Sarah Johnson",
     title: "Small Business Owner",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/p0.jpg?height=80&width=80",
   },
   {
     quote: "As a freelancer, keeping track of my income and expenses was always a challenge. FinAd made it effortless and helped me optimize my spending.",
     author: "Michael Chen",
     title: "Freelance Designer",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/p1.jpg?height=80&width=80",
   },
   {
     quote: "The insights provided by FinAd have been eye-opening. I've been able to identify and cut unnecessary expenses, putting me on track for early retirement.",
     author: "Emily Rodriguez",
     title: "Software Engineer",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/p2.jpg?height=80&width=80",
   },
 ]
 
