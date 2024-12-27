@@ -19,7 +19,7 @@ export default function Hero() {
               <Button variant="outline" size="lg" asChild><Link href="#how-it-works">Learn More</Link></Button>
             </div>
           </div>
-          <div className="lg:w-1/2 mb-8 lg:pl-16 2xl:pl-48 w-full w-screen overflow-x-hidden sm:w-full sm:overflow-x-visible">
+          <div className="mt-12 sm:mt-0 lg:w-1/2 mb-8 lg:pl-16 2xl:pl-48 w-full w-screen overflow-x-hidden sm:w-full sm:overflow-x-visible">
             <InteractiveDashboardDemo />
           </div>
         </div>
