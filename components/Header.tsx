@@ -12,10 +12,13 @@ export default function Header() {
             <Link href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</Link>
             <Link href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors">How It Works</Link>
             <Link href="#pricing" className="text-gray-600 hover:text-blue-600 transition-colors">Pricing</Link>
+            <div>|</div>
+            <Link href="/investors" className="text-gray-600 hover:text-blue-600 transition-colors">For investors</Link>
+            <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact Us</Link>
           </nav>
         </div>
 
-        <Button variant="outline" className="hidden md:inline-flex" asChild><Link href="/auth">Sign Up</Link></Button>
+        <Button variant="outline" className="hidden md:inline-flex md:ml-5" asChild><Link href="/auth">Sign Up</Link></Button>
         <Button variant="ghost" className="md:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
