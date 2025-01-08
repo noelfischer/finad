@@ -18,7 +18,7 @@ export default function ContactPage() {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">Contact Us</h1>
             <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-              Have questions or want to learn more about FinAd? We're here to help. Reach out to us using the form below or through our contact information.
+              Have questions or want to learn more about FinAd? We&apos;re here to help. Reach out to us using the form below or through our contact information.
             </p>
             
             <h2 className="text-3xl font-bold text-center mb-8">Meet Our Founders</h2>
