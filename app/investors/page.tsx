@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { BarChart, TrendingUp, PieChart, Users, DollarSign, Check, Car } from 'lucide-react'
+import { TrendingUp, PieChart, Users, DollarSign, Check } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 

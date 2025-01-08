@@ -25,7 +25,7 @@ export default function ContactForm() {
       <Card>
         <CardContent className="pt-6">
           <h2 className="text-2xl font-bold mb-4">Thank You!</h2>
-          <p className="text-gray-600">Your message has been sent. We'll get back to you as soon as possible.</p>
+          <p className="text-gray-600">Your message has been sent. We&apos;ll get back to you as soon as possible.</p>
         </CardContent>
       </Card>
     )

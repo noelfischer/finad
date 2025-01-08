@@ -1,8 +1,6 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mail, Phone, MapPin } from 'lucide-react'
 import Founders from '@/components/Founders'
 import ContactForm from '@/components/ContactForm'
 
