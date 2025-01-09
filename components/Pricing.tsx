@@ -12,7 +12,7 @@ const plans = [
   },
   {
     name: 'Pro',
-    price: '$9.99/month',
+    price: '$9.99',
     features: ['All Basic features', 'Advanced budgeting', 'Custom categories', 'Unlimited bank accounts', 'Investment tracking'],
     cta: 'Try Pro',
     popular: true,
