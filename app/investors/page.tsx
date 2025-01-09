@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { TrendingUp, PieChart, Users, DollarSign, Check } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import PrototypeDemo from '@/components/PrototypeDemo'
 
 export const metadata = {
     title: 'FinAd - Investor Information',
@@ -122,6 +123,15 @@ export default function InvestorPage() {
                                     className="rounded-lg shadow-xl"
                                 />
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="py-16 bg-white">
+                    <div className="container mx-auto px-4">
+                        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Prototype Demo</h2>
+                        <div className="max-w-4xl mx-auto">
+                            <PrototypeDemo />
                         </div>
                     </div>
                 </section>
