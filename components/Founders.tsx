@@ -4,19 +4,19 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const founders = [
   {
     name: "Noel Fischer",
-    role: "CEO & Co-Founder",
+    role: "Strategy Lead & Co-Founder",
     image: "/noel.jpg?height=300&width=300",
     description: "Serial entrepreneur with a passion for personal finance and technology."
   },
   {
     name: "Aschvin Umachandran",
-    role: "CTO & Co-Founder",
+    role: "Technical Lead & Co-Founder",
     image: "/aschvin.jpg?height=300&width=300",
     description: "AI and machine learning expert with a background in developing financial algorithms."
   },
   {
     name: "Kaja Mathitharan",
-    role: "COO & Co-Founder",
+    role: "Finance Lead & Co-Founder",
     image: "/kaja.png?height=300&width=300",
     description: "Experienced operations leader with a track record in scaling startups."
   }
