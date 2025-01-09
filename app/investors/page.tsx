@@ -110,7 +110,7 @@ export default function InvestorPage() {
                                     </div>
                                     <div>
                                         <h3 className="text-xl font-semibold mb-2">International Expansion</h3>
-                                        <p className="text-gray-600">Planned expansion into neighboring European countries, starting with Germany and France, by 2024.</p>
+                                        <p className="text-gray-600">Planned expansion into neighboring European countries, starting with Germany and France, by 2027.</p>
                                     </div>
                                 </div>
                             </div>
