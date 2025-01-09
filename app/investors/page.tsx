@@ -258,7 +258,7 @@ export default function InvestorPage() {
                                     <ul className="space-y-2">
                                         <li>Total Users: 850 Thousand</li>
                                         <li>Premium Conversion Rate: 18%</li>
-                                        <li>Annual Revenue: $8.5 million</li>
+                                        <li>Annual Revenue: $10 million</li>
                                         <li>EBITDA Margin: 30%</li>
                                         <li>Market Share: 15%</li>
                                     </ul>
@@ -288,7 +288,7 @@ export default function InvestorPage() {
                                     <ul className="space-y-2">
                                         <li>Total Users: 1.15 Million</li>
                                         <li>Premium Conversion Rate: 20%</li>
-                                        <li>Annual Revenue: $12 million</li>
+                                        <li>Annual Revenue: $15 million</li>
                                         <li>EBITDA Margin: 35%</li>
                                         <li>Market Share: 20%</li>
                                     </ul>
