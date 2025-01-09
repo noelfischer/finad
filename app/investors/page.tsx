@@ -53,8 +53,8 @@ export default function InvestorPage() {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-3xl font-bold">$50M</p>
-                                    <p className="text-sm text-gray-500">Projected annual revenue by 2025</p>
+                                    <p className="text-3xl font-bold">$10M</p>
+                                    <p className="text-sm text-gray-500">Projected annual revenue by 2026</p>
                                 </CardContent>
                             </Card>
                             <Card>
